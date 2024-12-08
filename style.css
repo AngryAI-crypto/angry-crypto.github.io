@@ -1,0 +1,34 @@
+body {
+    background-color: lightsalmon;
+}
+
+h1{
+    display: block;
+    text-align: center;
+    font-family: Helvetica;
+    color: hsl(347, 81%, 55%);
+}
+
+#gameContainer{
+    display: block;
+    text-align: center;
+}
+
+.btn{
+    padding: 25px 25px;
+    font-size: 2em;
+    border-radius: 50px;
+    background-color: hsl(347, 100%, 67%);
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+.btn:hover{
+    background-color: hsl(347, 100%, 62%);
+}
+
+.label{
+    font-family: Helvetica;
+    font-size: 25px;
+    color: hsl(347, 81%, 55%);
+}
